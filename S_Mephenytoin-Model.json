@@ -108,12 +108,12 @@
         },
         {
           "Path": "AADAC|Relative expression in blood cells",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "AADAC|Relative expression in plasma",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
@@ -130,12 +130,12 @@
         },
         {
           "Path": "Organism|Bone|Intracellular|AADAC|Relative expression",
-          "Value": 4.8717948718E-05,
+          "Value": 4.8717948718e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|AADAC|Relative expression",
-          "Value": 3.9743589744E-05,
+          "Value": 3.9743589744e-05,
           "ValueOrigin": {}
         },
         {
@@ -150,7 +150,7 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|AADAC|Relative expression",
-          "Value": 5.7051282051E-05,
+          "Value": 5.7051282051e-05,
           "ValueOrigin": {}
         },
         {
@@ -362,7 +362,7 @@
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP2C9|Relative expression",
-          "Value": 4.5940341362E-05,
+          "Value": 4.5940341362e-05,
           "ValueOrigin": {}
         },
         {
@@ -452,7 +452,7 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
-          "Value": 4.4025157233E-06,
+          "Value": 4.4025157233e-06,
           "ValueOrigin": {}
         },
         {
@@ -467,7 +467,7 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
-          "Value": 2.4947589099E-05,
+          "Value": 2.4947589099e-05,
           "ValueOrigin": {}
         }
       ],
@@ -889,7 +889,7 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
-          "Value": 4.0079365079E-05,
+          "Value": 4.0079365079e-05,
           "ValueOrigin": {}
         },
         {
@@ -1900,7 +1900,110 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "S-Mephenytoin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Adedoyin1998_S_Meph_CL_F_GFR_RR|Organism|PeripheralVenousBlood|S-Mephenytoin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 6
+              }
+            },
+            {
+              "Name": "Adedoyin1998_50 mg po_S-Meph_measured-S-Mephenytoin-Peripheral Venous Blood-Plasma-CentralMeasure",
+              "X": "Adedoyin1998_50 mg po_S-Meph_measured|TAD",
+              "Y": "Adedoyin1998_50 mg po_S-Meph_measured|ObservedData|Peripheral Venous Blood|Plasma|S-Mephenytoin|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Jacqz1986_50 mg po_S-Meph_measured-S-Mephenytoin-Peripheral Venous Blood-Plasma-CentralMeasure",
+              "X": "Jacqz1986_50 mg po_S-Meph_measured|TAD",
+              "Y": "Jacqz1986_50 mg po_S-Meph_measured|ObservedData|Peripheral Venous Blood|Plasma|S-Mephenytoin|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Wedlund1985_50 mg po_S-Meph_measured_n=1-S-Mephenytoin-Peripheral Venous Blood-Plasma-CentralMeasure",
+              "X": "Wedlund1985_50 mg po_S-Meph_measured_n=1|TAD",
+              "Y": "Wedlund1985_50 mg po_S-Meph_measured_n=1|ObservedData|Peripheral Venous Blood|Plasma|S-Mephenytoin|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Iga2016_50 mg po_S-Meph-SM_simulated-S-Mephenytoin-Peripheral Venous Blood-Plasma-CentralMeasure",
+              "X": "Iga2016_50 mg po_S-Meph-SM_simulated|TAD",
+              "Y": "Iga2016_50 mg po_S-Meph-SM_simulated|ObservedData|Peripheral Venous Blood|Plasma|S-Mephenytoin|CentralMeasure",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "S-Mephenytoin 50 mg p.o.",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "S-Mephenytoin 50 mg p.o.",
+          "OriginText": "S_Mephenytoin\nAdedoyin1998_S_Meph_CL_F_GFR_RR\n2020-08-04 12:20"
+        }
+      ]
     },
     {
       "Name": "POP_Adedoyin1998_50 mg po_CYP2C19_geoSD2.25",
@@ -1997,12 +2100,12 @@
         },
         {
           "Path": "AADAC|Relative expression in blood cells",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "AADAC|Relative expression in plasma",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "ValueOrigin": {}
         },
         {
@@ -3243,7 +3346,7 @@
         },
         {
           "Path": "Organism|ArterialBlood|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -3291,7 +3394,7 @@
         },
         {
           "Path": "Organism|ArterialBlood|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -3327,7 +3430,7 @@
         },
         {
           "Path": "Organism|Bone|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -3468,13 +3571,13 @@
         },
         {
           "Path": "Organism|Bone|Intracellular|AADAC|Initial concentration",
-          "Value": 5.6256291822E-05,
+          "Value": 5.6256291822e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
         {
           "Path": "Organism|Bone|Intracellular|AADAC|Relative expression",
-          "Value": 4.8717948718E-05,
+          "Value": 4.8717948718e-05,
           "ValueOrigin": {}
         },
         {
@@ -3579,7 +3682,7 @@
         },
         {
           "Path": "Organism|Bone|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -3627,7 +3730,7 @@
         },
         {
           "Path": "Organism|Brain|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -3768,13 +3871,13 @@
         },
         {
           "Path": "Organism|Brain|Intracellular|AADAC|Initial concentration",
-          "Value": 4.1529351875E-05,
+          "Value": 4.1529351875e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
         {
           "Path": "Organism|Brain|Intracellular|AADAC|Relative expression",
-          "Value": 3.9743589744E-05,
+          "Value": 3.9743589744e-05,
           "ValueOrigin": {}
         },
         {
@@ -3869,7 +3972,7 @@
         },
         {
           "Path": "Organism|Brain|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -3927,7 +4030,7 @@
         },
         {
           "Path": "Organism|Fat|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -4179,7 +4282,7 @@
         },
         {
           "Path": "Organism|Fat|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -4227,7 +4330,7 @@
         },
         {
           "Path": "Organism|Gonads|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -4432,7 +4535,7 @@
         },
         {
           "Path": "Organism|Gonads|Intracellular|CYP2C9|Relative expression",
-          "Value": 4.5940341362E-05,
+          "Value": 4.5940341362e-05,
           "ValueOrigin": {}
         },
         {
@@ -4479,7 +4582,7 @@
         },
         {
           "Path": "Organism|Gonads|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -4527,7 +4630,7 @@
         },
         {
           "Path": "Organism|Heart|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -4779,7 +4882,7 @@
         },
         {
           "Path": "Organism|Heart|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -4827,7 +4930,7 @@
         },
         {
           "Path": "Organism|Kidney|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -4974,7 +5077,7 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|AADAC|Relative expression",
-          "Value": 5.7051282051E-05,
+          "Value": 5.7051282051e-05,
           "ValueOrigin": {}
         },
         {
@@ -5000,13 +5103,13 @@
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP1A2|Initial concentration",
-          "Value": 1.3902681231E-05,
+          "Value": 1.3902681231e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
         {
           "Path": "Organism|Kidney|Intracellular|CYP1A2|Relative expression",
-          "Value": 4.4025157233E-06,
+          "Value": 4.4025157233e-06,
           "ValueOrigin": {}
         },
         {
@@ -5091,7 +5194,7 @@
         },
         {
           "Path": "Organism|Kidney|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -5139,7 +5242,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -5391,7 +5494,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|Caecum|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -5655,7 +5758,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|Caecum|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -5703,7 +5806,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -5967,7 +6070,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonAscendens|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -6015,7 +6118,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -6279,7 +6382,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonDescendens|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -6327,7 +6430,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -6591,7 +6694,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonSigmoid|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -6639,7 +6742,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -6903,7 +7006,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|ColonTransversum|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -6951,7 +7054,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|Rectum|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -7215,7 +7318,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Mucosa|Rectum|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -7263,7 +7366,7 @@
         },
         {
           "Path": "Organism|LargeIntestine|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -7311,7 +7414,7 @@
         },
         {
           "Path": "Organism|Liver|Pericentral|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -7623,7 +7726,7 @@
         },
         {
           "Path": "Organism|Liver|Periportal|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -7887,7 +7990,7 @@
         },
         {
           "Path": "Organism|Liver|Periportal|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -8727,7 +8830,7 @@
         },
         {
           "Path": "Organism|Lung|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -8900,7 +9003,7 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|CYP1A2|Relative expression",
-          "Value": 2.4947589099E-05,
+          "Value": 2.4947589099e-05,
           "ValueOrigin": {}
         },
         {
@@ -8974,12 +9077,12 @@
         },
         {
           "Path": "Organism|Lung|Intracellular|OATP1B1|Relative expression",
-          "Value": 4.0079365079E-05,
+          "Value": 4.0079365079e-05,
           "ValueOrigin": {}
         },
         {
           "Path": "Organism|Lung|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -9027,7 +9130,7 @@
         },
         {
           "Path": "Organism|Muscle|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -9279,7 +9382,7 @@
         },
         {
           "Path": "Organism|Muscle|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -9327,7 +9430,7 @@
         },
         {
           "Path": "Organism|Pancreas|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -9579,7 +9682,7 @@
         },
         {
           "Path": "Organism|Pancreas|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -9627,7 +9730,7 @@
         },
         {
           "Path": "Organism|PortalVein|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -9675,7 +9778,7 @@
         },
         {
           "Path": "Organism|PortalVein|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -9711,7 +9814,7 @@
         },
         {
           "Path": "Organism|Skin|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -9963,7 +10066,7 @@
         },
         {
           "Path": "Organism|Skin|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -10011,7 +10114,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -10263,7 +10366,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -10527,7 +10630,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|Duodenum|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -10575,7 +10678,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -10839,7 +10942,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerIleum|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -10887,7 +10990,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11151,7 +11254,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|LowerJejunum|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11199,7 +11302,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11463,7 +11566,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperIleum|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11511,7 +11614,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11775,7 +11878,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Mucosa|UpperJejunum|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11823,7 +11926,7 @@
         },
         {
           "Path": "Organism|SmallIntestine|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -11871,7 +11974,7 @@
         },
         {
           "Path": "Organism|Spleen|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -12123,7 +12226,7 @@
         },
         {
           "Path": "Organism|Spleen|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -12171,7 +12274,7 @@
         },
         {
           "Path": "Organism|Stomach|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -12423,7 +12526,7 @@
         },
         {
           "Path": "Organism|Stomach|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -12471,7 +12574,7 @@
         },
         {
           "Path": "Organism|VenousBlood|BloodCells|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -12519,7 +12622,7 @@
         },
         {
           "Path": "Organism|VenousBlood|Plasma|AADAC|Initial concentration",
-          "Value": 3.9102564103E-05,
+          "Value": 3.9102564103e-05,
           "Unit": "µmol/l",
           "ValueOrigin": {}
         },
@@ -12624,7 +12727,7 @@
           }
         }
       ],
-      "HasResults": false
+      "HasResults": true
     }
   ],
   "ObservedData": [
