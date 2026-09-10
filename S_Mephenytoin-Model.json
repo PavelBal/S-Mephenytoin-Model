@@ -12727,7 +12727,108 @@
           }
         }
       ],
-      "HasResults": true
+      "HasResults": true,
+      "PopulationAnalyses": [
+        {
+          "Type": "TimeProfile",
+          "Analysis": {
+            "Fields": [
+              {
+                "Name": "S-Mephenytoin simulated",
+                "Dimension": "Concentration (molar)",
+                "Scaling": "Log",
+                "Unit": "µmol/l",
+                "QuantityPath": "Organism|PeripheralVenousBlood|S-Mephenytoin|Plasma (Peripheral Venous Blood)",
+                "QuantityType": "Drug, Observer",
+                "Color": "#000000",
+                "Area": "DataArea"
+              }
+            ],
+            "Statistics": [
+              {
+                "Id": "ArithmeticMean",
+                "LineStyle": "Solid"
+              },
+              {
+                "Id": "ArithmeticStandardDeviation",
+                "LineStyle": "Solid"
+              }
+            ]
+          },
+          "ObservedDataCollection": {
+            "ObservedData": [
+              "Adedoyin1998_50 mg po_S-Meph_measured",
+              "Iga2016_50 mg po_S-Meph-SM_simulated",
+              "Jacqz1986_50 mg po_S-Meph_measured",
+              "Wedlund1985_50 mg po_S-Meph_measured_n=1"
+            ],
+            "ApplyGrouping": false,
+            "CurveOptions": [
+              {
+                "Caption": "Adedoyin1998_50 mg po_S-Meph_measured-S-Mephenytoin-Peripheral Venous Blood-Plasma-CentralMeasure",
+                "Path": "Adedoyin1998_50 mg po_S-Meph_measured|ObservedData|Peripheral Venous Blood|Plasma|S-Mephenytoin|CentralMeasure",
+                "CurveOptions": {
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              },
+              {
+                "Caption": "Iga2016_50 mg po_S-Meph-SM_simulated-S-Mephenytoin-Peripheral Venous Blood-Plasma-CentralMeasure",
+                "Path": "Iga2016_50 mg po_S-Meph-SM_simulated|ObservedData|Peripheral Venous Blood|Plasma|S-Mephenytoin|CentralMeasure",
+                "CurveOptions": {
+                  "Color": "#008000",
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              },
+              {
+                "Caption": "Jacqz1986_50 mg po_S-Meph_measured-S-Mephenytoin-Peripheral Venous Blood-Plasma-CentralMeasure",
+                "Path": "Jacqz1986_50 mg po_S-Meph_measured|ObservedData|Peripheral Venous Blood|Plasma|S-Mephenytoin|CentralMeasure",
+                "CurveOptions": {
+                  "Color": "#FF00FF",
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              },
+              {
+                "Caption": "Wedlund1985_50 mg po_S-Meph_measured_n=1-S-Mephenytoin-Peripheral Venous Blood-Plasma-CentralMeasure",
+                "Path": "Wedlund1985_50 mg po_S-Meph_measured_n=1|ObservedData|Peripheral Venous Blood|Plasma|S-Mephenytoin|CentralMeasure",
+                "CurveOptions": {
+                  "Color": "#40E0D0",
+                  "LineStyle": "None",
+                  "Symbol": "Circle"
+                }
+              }
+            ]
+          },
+          "XAxisSettings": {
+            "AutoRange": true
+          },
+          "YAxisSettings": {
+            "AutoRange": true
+          },
+          "SecondaryYAxisSettings": [],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "S_Mephenytoin\nPOP_Adedoyin1998_50 mg po_CYP2C19_geoSD2.25\n2020-08-04 12:23"
+        }
+      ]
     }
   ],
   "ObservedData": [
@@ -14236,5 +14337,6 @@
         "Unit": "h"
       }
     }
-  ]
+  ],
+  "ApplicationName": "PK-Sim"
 }
