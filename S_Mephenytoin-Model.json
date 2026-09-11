@@ -1,6 +1,7 @@
 {
   "Name": "S_Mephenytoin-Model",
   "Version": 81,
+  "ApplicationName": "PK-Sim",
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -14337,6 +14338,5 @@
         "Unit": "h"
       }
     }
-  ],
-  "ApplicationName": "PK-Sim"
+  ]
 }
