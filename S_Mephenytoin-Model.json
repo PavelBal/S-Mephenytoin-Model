@@ -1810,14 +1810,6 @@
           ]
         }
       ],
-      "Parameters": [
-        {
-          "Path": "Events|50 mg S_mephenytoin_(100mgRacemat)|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
-          "ValueOrigin": {}
-        }
-      ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|S-Mephenytoin|Plasma (Peripheral Venous Blood)"
       ],
@@ -3284,12 +3276,6 @@
           "Path": "CYP3A5|t1/2 (liver)",
           "Value": 36.0,
           "Unit": "h",
-          "ValueOrigin": {}
-        },
-        {
-          "Path": "Events|50 mg S_mephenytoin_(100mgRacemat)|Dissolved|Application_1|ProtocolSchemaItem|Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg",
           "ValueOrigin": {}
         },
         {
